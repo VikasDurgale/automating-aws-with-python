@@ -9,4 +9,3 @@ new_bucket = s3.create_bucket(Bucket='automatingaws-python-boto3', CreateBucketC
 #List Bucket
 for bucket in s3.buckets.all():
 	print(bucket)
-
