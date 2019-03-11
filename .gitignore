@@ -1,5 +1,6 @@
 01-webotron/Pipfile.lock
 02-notifon/Pipfile.lock
+03-videolyzer/Pipfile.lock
 *.pem
 # Byte-compiled / optimized / DLL files
 __pycache__/
