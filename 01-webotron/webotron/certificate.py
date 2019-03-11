@@ -15,7 +15,7 @@ class CertificateManager:
 		"""Return True if certificate matches domain name."""
 		cert_details = self.client.describe_certificate(
 			CertificateArn=cert_arn
-		)
+			)
 		alt_names = cert_details['Certificate']['SubjectAlternativeNames']
 		for name in alt_names:
 			if name == domain_name:
